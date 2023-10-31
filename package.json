@@ -9,9 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "framer-motion": "^10.16.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.4",
+    "next": "14.0.1",
+    "next-auth": "^4.24.4",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.1"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
