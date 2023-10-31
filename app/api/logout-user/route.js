@@ -16,7 +16,7 @@ export async function GET(request) {
                 success: true,
             }
         )
-        response.cookies.delete('token');
+        response.cookies.set('token',"",{maxAge : 1});
         return response;
     } catch (error) {
         return NextResponse.json({ error: error.message }, { status: 500 });

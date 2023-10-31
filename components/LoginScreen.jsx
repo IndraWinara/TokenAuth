@@ -19,6 +19,7 @@ const handleSubmit = async (e)=>{
     }, body: JSON.stringify(dataInput)
   })
   router.push('/')
+  window.location.reload()
 }
 
   return (
