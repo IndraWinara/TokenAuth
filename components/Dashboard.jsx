@@ -19,9 +19,8 @@ const Dashboard =  () => {
     getMe().then((e)=> setData(e))
   },[])
 
- const handleLogout = async (e)=>{
-  e.preventDefault()
-  await fetch('/api/logout-user',{method : 'GET',headers:{
+ const handleLogout = async ()=>{
+  await fetch('/api/logout-user',{method : 'POST',headers:{
     accept : 'application/json'
   }})
   router.push('/login')
